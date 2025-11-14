@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Replace this with your MongoDB Atlas connection string
-const uri = "mongodb+srv://gpardasaradi2907_db_user:pardhu2907@cluster0.kdiuu1p.mongodb.net/?appName=Cluster0";
+const uri = "mongodb+srv://gpardasaradi2907_db_user:pardhu2907@cluster0.kdiuu1p.mongodb.net/demo?appName=Cluster0";
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
